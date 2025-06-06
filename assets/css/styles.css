@@ -1,0 +1,38 @@
+/* Google Fonts Import */
+
+
+/* Asterisk Wildcard Selector to override default styles added by browser*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General page styles */
+
+body {
+    /* Use flexbox to create a full-height layout */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+}
+
+/* Header styles */
+
+header {
+    background-color: lightblue;
+}
+
+/* Main content styles */
+
+main {
+    /* Make main element take up any surplus space and push footer down*/
+    flex: 1 0 auto;
+    background-color: lightgreen;
+}
+
+/* Footer styles */
+
+footer {
+    background-color: lightcoral;
+}
