@@ -49,11 +49,22 @@ header a {
     letter-spacing: 1px;
 }
 
-.active:hover {
+#menu {
+    /* Style list items in the menu */
+    list-style: none; /* Remove default list styling */
+    letter-spacing: 2px;
+    font-size: 110%;
+}
+
+#menu li {
+    margin-bottom: 10px;
+}
+
+.active {
     /* Style for active links */
-    color: #ff6347; /* Tomato color for active link */
+    color: #000080; /* Tomato color for active link */
     font-weight: bold;
-    text-decoration: underline;
+    border-bottom: 2px solid black; /* Underline effect */
 }
 
 /* Navigation styles */
@@ -64,6 +75,7 @@ main {
     /* Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
     background-color: lightgreen;
+    /*margin-top: 60px; /* Offset for fixed header */
 }
 
 /* Footer styles */
