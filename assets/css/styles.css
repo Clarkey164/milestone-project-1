@@ -102,7 +102,7 @@ main {
     /* Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
     background-color: lightgreen;
-    /*margin-top: 60px; /* Offset for fixed header */
+    margin-top: 47px; /* Offset for fixed header */
 }
 
 /* Footer styles */
@@ -112,3 +112,54 @@ footer {
 }
 
 /* Meduia Queries for Responsive Design */
+
+/* Responsive design for mobiles and larger screens */
+@media screen and (min-width: 480px) {
+    
+}
+
+/* Responsive design for tablets and larger screens */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: inline-block;
+        position : relative; 
+        width: fit-content; 
+        padding-right: 1rem; /* Add padding to the right */
+        box-shadow: none; /* Remove shadow for larger screens */
+    }
+
+    #menu {
+        display: flex; /* Use flexbox for horizontal layout */
+        flex-direction: row; /* Arrange items in a row */
+        align-items: center; /* Center items vertically */
+    }
+
+    .menu-toggle-label {
+        display: none; /* Hide the menu toggle label on larger screens */
+    }
+
+    main {
+        margin-top:77px; /* Remove top margin for main content */
+    }
+}
+
+/* Responsive design for laptops and larger screens */
+@media screen and (min-width: 1024px) {
+    /* Header */
+     nav {
+        display: inline-block;
+        position : relative; 
+        width: fit-content; 
+        padding-right: 1rem; /* Add padding to the right */
+        box-shadow: none; /* Remove shadow for larger screens */
+    } 
+
+    main {
+        margin-top:47px; /* Remove top margin for main content */
+    }
+}
+
+/* Responsive design for desktops and larger screens */
+@media screen and (min-width: 1280px) {   
+}
