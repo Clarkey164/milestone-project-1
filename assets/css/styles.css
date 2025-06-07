@@ -73,12 +73,6 @@ header a {
     border-bottom: 2px solid black; /* Underline effect */
 }
 
-li a:hover {
-    /* Style for links on hover */
-    color: #000080; 
-    text-decoration: underline; /* Underline effect on hover */
-}
-
 /* Navigation dropdown styles */
 
 nav {
@@ -146,7 +140,7 @@ footer {
     }
 
     main {
-        margin: top 47px; /* Remove top margin for main content */
+        margin-top: 75px; /* Remove top margin for main content */
     }
 
     #logo {
@@ -167,13 +161,19 @@ footer {
     } 
 
     main {
-        margin-top: 55px; /* Remove top margin for main content */
+        margin-top: 75px; /* Remove top margin for main content */
     }
 
     #logo {
         font-size: 2.5rem; /* Increase logo font size */
         line-height: 75px; /* Adjust line height for better spacing */
         margin: 0 0.5rem;
+    }
+
+    li a:hover {
+        /* Style for links on hover */
+        color: #000080; 
+        text-decoration: underline; /* Underline effect on hover */
     }
 }
 
