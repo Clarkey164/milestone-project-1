@@ -107,27 +107,26 @@ main {
     /* Style for welcome text */
     font-family: 'Raleway', sans-serif;
     font-size: 1.5rem; /* Font size for welcome text */
-    color: #ffffff; /* Use a white for welcome text */
+    color: #3a3a3a; /* Use a white for welcome text */
     margin: 1rem; /* Add margin around welcome text */
     text-align: center; /* Center the welcome text */
     text-transform: uppercase; /* Transform text to uppercase */
     margin-top: 0px; /* Add top margin for spacing */
     position: relative; /* Position relative for welcome text */
-    z-index: 10; /* Ensure welcome text is above the background */
 }
 
-#welcome-background-color {
-    /* Style for welcome text color */
-    background-color: #000080; /* Dark blue background for welcome text */
-    width: 100%; /* Full width for welcome text */
-    height: 400px; /* Fixed height for welcome text */
-    margin-left: 0; /* Align to the left */
-    opacity: 0.2; /* Semi-transparent background */
-    position: absolute; /* Position absolute for background */
-    z-index: 5; /* Ensure background is below the welcome text */
+#welcome-section {
+    /* Style for welcome section */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 2rem; /* Add padding to the welcome section */
+    background-color: #f0f0f0; /* Light background color for contrast */
+    margin-top: 20px; /* Add top margin for spacing */
 }
 
-/* Header Image Styles */
+/* Main Image Styles */
 
 #main-image {
     width: 100%; /* Full width for header image */
@@ -139,7 +138,15 @@ main {
     margin-top: 0; /* Remove top margin for header image */
 }
 
-
+.valet {
+    /* Style for the main content section */
+    display: flex; /* Use flexbox for layout */
+    flex-direction: column; /* Arrange items in a column */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    padding: 2rem; /* Add padding to the main content section */
+    background-color: #f0f0f0; /* Light background color for contrast */
+}
 
 /* Footer styles */
 
@@ -177,6 +184,74 @@ div #social-icons {
         justify-content: center; /* Center content horizontally */
     }
 
+    #valet-button {
+        /* Style for the valet button */
+        background-color: #000080; /* Dark blue background */
+        color: white; /* White text color */
+        border: none; /* Remove border */
+        border-radius: 5px; /* Rounded corners */
+        cursor: pointer; /* Pointer cursor on hover */
+        font-size: 1rem; /* Font size for button */
+        text-transform: capitalize; /* Capitalize button text */
+        display: block; /* Make button a block element */
+        margin: 0 auto; /* Center the button horizontally */
+    }
+
+    #valet-button:hover {
+        /* Style for valet button on hover */
+        background-color: #0000ff; /* Lighter blue on hover */
+        color: white; /* Keep text color white */
+    }
+
+    .center-text {
+        /* Center text in the main content */
+        text-align: center; /* Center text */
+        font-size: 1.2rem; /* Font size for centered text */
+        margin: 1rem; /* Add margin around centered text */
+    }
+
+    .capitalize-text {
+        /* Capitalize text */
+        text-transform: capitalize; /* Capitalize text */
+    }
+
+    .valet {
+        /* Style for the main content section */
+        display: flex; /* Use flexbox for layout */
+        flex-direction: column; /* Arrange items in a column */
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+        padding: 2rem; /* Add padding to the main content section */
+        background-color: #f0f0f0; /* Light background color for contrast */
+}
+
+    #lifestyles {
+        display: flex; /* Use flexbox for layout */
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: center; /* Center items horizontally */
+        gap: 20px; /* Add space between items */
+        margin-top: 20px; /* Add top margin for reasons section */
+}
+
+    #foam-picture {
+        width: 300px; /* Full width for foam picture */
+        height: 300px; /* Fixed height for foam picture */
+        background: url('../images/foam-picture-1.jpg'); /* Background image for foam */
+        background-size: cover; /* Cover the entire area */
+        background-position: center; /* Center the image */
+        box-shadow: 0 2px 4px #000080; /* Add shadow for foam picture */
+        border-radius: 50%; /* Make the foam picture circular */
+        margin: 20px; /* Add top margin for foam picture */
+}
+
+    .one-two li, .three-four li {
+        /* Style for list items in the main content */
+        width: 100%; /* Full width for list items */
+        text-align: center; /* Center text in list items */
+        font-size: 1.2rem; /* Font size for list items */
+        margin-bottom: 10px; /* Add space between list items */
+        list-style: none; /* Remove default list styling */
+    }
 }
 
 /* Responsive design for tablets and larger screens */
@@ -210,7 +285,15 @@ div #social-icons {
         line-height: 75px; /* Adjust line height for better spacing */
     }
 
-
+    #foam-picture {
+        width: 300px; /* Full width for foam picture */
+        height: 300px; /* Fixed height for foam picture */
+        background: url('../images/foam-picture-1.jpg'); /* Background image for foam */
+        background-size: cover; /* Cover the entire area */
+        background-position: center; /* Center the image */
+        box-shadow: 0 2px 4px #000080; /* Add shadow for foam picture */
+        margin: 20px; /* Add top margin for foam picture */
+    }
 }
 
 /* Responsive design for laptops and larger screens */
@@ -238,6 +321,43 @@ div #social-icons {
         /* Style for links on hover */
         color: #000080; 
         border-bottom: 2px solid black; /* Underline effect on hover */
+    }
+
+    .valet {
+        /* Style for the main content section */
+        display: flex; /* Use flexbox for layout */
+        flex-direction: column; /* Arrange items in a column */
+        align-items: center; /* Center items horizontally */
+        justify-content: center; /* Center items vertically */
+        padding: 2rem; /* Add padding to the main content section */
+        background-color: #f0f0f0; /* Light background color for contrast */
+    }
+
+    #lifestyles {
+        display: flex; /* Use flexbox for layout */
+        flex-wrap: wrap; /* Allow items to wrap to the next line */
+        justify-content: center; /* Center items horizontally */
+        gap: 20px; /* Add space between items */
+        margin-top: 20px; /* Add top margin for reasons section */
+    }
+
+    #foam-picture {
+        width: 300px; /* Full width for foam picture */
+        height: 300px; /* Fixed height for foam picture */
+        background: url('../images/foam-picture-1.jpg'); /* Background image for foam */
+        background-size: cover; /* Cover the entire area */
+        background-position: center; /* Center the image */
+        box-shadow: 0 2px 4px #000080; /* Add shadow for foam picture */
+        margin: 20px; /* Add top margin for foam picture */
+        order: 2;
+    }   
+
+    .one-two {
+        order: 1; /* Order for the first item */
+    }
+
+    .three-four {
+        order: 3; /* Order for the third item */
     }
 }
 
