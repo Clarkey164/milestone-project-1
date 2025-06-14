@@ -29,7 +29,7 @@ header {
     position: fixed; /* Fix the header to the top of the viewport */
     z-index: 100;
     width: 100%;
-    box-shadow: 0 2px 4px #3a3a3a;
+    box-shadow: 0 2px 4px #000080; /* Add shadow for header */
     display:flex; 
     justify-content: space-between; /* Space between logo and menu */
     align-items: baseline; /* Center items vertically */
@@ -83,7 +83,7 @@ nav {
     display: none; /* Hide dropdown by default */
     top: 100%;
     left: 0; /* Align dropdown to the left */
-    box-shadow: 0 2px 4px #3a3a3a; /* Add shadow for dropdown */
+    box-shadow: 0 2px 4px #000080; /* Add shadow for dropdown */
 }
 
 /* Nav-toggle styles */
@@ -97,13 +97,49 @@ nav {
 }
 
 /* Main content styles */
-
 main {
     /* Make main element take up any surplus space and push footer down*/
     flex: 1 0 auto;
-    background-color: lightgreen;
     margin-top: 47px; /* Offset for fixed header */
 }
+
+.welcome-text {
+    /* Style for welcome text */
+    font-family: 'Raleway', sans-serif;
+    font-size: 1.5rem; /* Font size for welcome text */
+    color: #ffffff; /* Use a white for welcome text */
+    margin: 1rem; /* Add margin around welcome text */
+    text-align: center; /* Center the welcome text */
+    text-transform: uppercase; /* Transform text to uppercase */
+    margin-top: 0px; /* Add top margin for spacing */
+    position: relative; /* Position relative for welcome text */
+    z-index: 10; /* Ensure welcome text is above the background */
+}
+
+#welcome-background-color {
+    /* Style for welcome text color */
+    background-color: #000080; /* Dark blue background for welcome text */
+    width: 100%; /* Full width for welcome text */
+    height: 400px; /* Fixed height for welcome text */
+    margin-left: 0; /* Align to the left */
+    opacity: 0.2; /* Semi-transparent background */
+    position: absolute; /* Position absolute for background */
+    z-index: 5; /* Ensure background is below the welcome text */
+}
+
+/* Header Image Styles */
+
+#main-image {
+    width: 100%; /* Full width for header image */
+    height: 400px; /* Fixed height for header image */
+    background: url('../images/header-picture.jpg'); /* Background image for header */
+    background-size: cover; /* Cover the entire area */
+    background-position: center; /* Center the image */
+    box-shadow: 0 2px 4px #000080; /* Add shadow for header image */
+    margin-top: 0; /* Remove top margin for header image */
+}
+
+
 
 /* Footer styles */
 
@@ -123,8 +159,24 @@ div #social-icons {
 /* Meduia Queries for Responsive Design */
 
 /* Responsive design for mobiles and larger screens */
-@media screen and (min-width: 480px) {
-    
+@media screen and (min-width: 360px) {
+
+    .welcome-text {
+        font-size: 1.2rem; /* Adjust font size for welcome text */
+        margin-top: 0; 
+    }
+
+    main {
+        margin-top: 44px; /* Adjust top margin for main content */
+    }
+
+    #main-image {
+        height: 300px; /* Adjust height for header image */
+        display: flex; /* Use flexbox for header image */
+        align-items: center; /* Center content vertically */
+        justify-content: center; /* Center content horizontally */
+    }
+
 }
 
 /* Responsive design for tablets and larger screens */
@@ -136,6 +188,7 @@ div #social-icons {
         width: fit-content; 
         padding-right: 1rem; /* Add padding to the right */
         box-shadow: none; /* Remove shadow for larger screens */
+        margin: auto; /* Center the nav */
     }
 
     #menu {
@@ -156,6 +209,8 @@ div #social-icons {
         font-size: 1.8rem; /* Increase logo font size */
         line-height: 75px; /* Adjust line height for better spacing */
     }
+
+
 }
 
 /* Responsive design for laptops and larger screens */
