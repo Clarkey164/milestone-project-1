@@ -2,22 +2,53 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&family=Ysabeau+Office:ital,wght@0,1..1000;1,1..1000&display=swap');
 
 /* Asterisk Wildcard Selector to override default styles added by browser*/
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
 
 /* General page styles */
 
-body {
-    /* Use flexbox to create a full-height layout */
-    min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
-    display: flex;
-    flex-direction: column;
-    /* General font styles */
-    font-family: 'Ysabeau Office', sans-serif;
-    color: #3a3a3a;
+    body {
+        /* Use flexbox to create a full-height layout */
+        min-height: 100vh; /* Ensure the body takes up at least the full viewport height */
+        display: flex;
+        flex-direction: column;
+        /* General font styles */
+        font-family: 'Ysabeau Office', sans-serif;
+        color: #3a3a3a;
+    }
+
+    .center-text {
+        /* Center text in the main content */
+        text-align: center; /* Center text */
+        font-size: 1.2rem; /* Font size for centered text */
+        margin: 1rem; /* Add margin around centered text */
+        margin-top: 4.5rem;
+    }
+
+    .capitalize-text {
+        /* Capitalize text */
+        text-transform: capitalize; /* Capitalize text */
+    }
+
+    .enlarge-text {
+        /* Enlarge text */
+        font-size: 2.5rem; /* Increase font size */
+        font-weight: bold; /* Make text bold */
+    }
+
+    .heading-color {
+        /* Heading color */
+        color: #000080; /* Dark blue color for headings */
+    }
+
+    .page-header-color {
+    /* Style for the background color at the top of each page */
+    background-color: #f0f0f0; /* Light background color for contrast */
+    width: 100%; /* Full width for background color section */
+    height: 200px; /* Full height for background color section */
 }
 
 /* Header styles */
@@ -148,6 +179,12 @@ main {
     background-color: #f0f0f0; /* Light background color for contrast */
 }
 
+/* About Us Page Styles */
+#about-us {
+    /* Style for the about us section */
+    display: flex; /* Use flexbox for layout */
+}
+
 /* Footer styles */
 
 footer {
@@ -203,18 +240,6 @@ div #social-icons {
         color: white; /* Keep text color white */
     }
 
-    .center-text {
-        /* Center text in the main content */
-        text-align: center; /* Center text */
-        font-size: 1.2rem; /* Font size for centered text */
-        margin: 1rem; /* Add margin around centered text */
-    }
-
-    .capitalize-text {
-        /* Capitalize text */
-        text-transform: capitalize; /* Capitalize text */
-    }
-
     .valet {
         /* Style for the main content section */
         display: flex; /* Use flexbox for layout */
@@ -251,6 +276,102 @@ div #social-icons {
         font-size: 1.2rem; /* Font size for list items */
         margin-bottom: 10px; /* Add space between list items */
         list-style: none; /* Remove default list styling */
+    }
+
+    #beginning {
+        display: flex;
+        position: relative;
+        height: 240px;
+    }
+
+    .container {
+        width: 60%;
+        zoom: 60%;
+    }
+
+    #first {
+        position: absolute;
+        width: 75%;
+        height: 180px;
+        background-color: #0000ff;
+        border-radius: 50px;
+        text-size-adjust: 80%;
+        color: #f0f0f0;
+        margin-top: 100px;
+        transform: translate(10px,10px);
+    }
+
+    #ste-john {
+        position: relative;
+        background-image: url(../images/ste-and-john.jpg);
+        background-position: 50% 10%;
+        background-repeat: no-repeat;
+        Height: 400px;
+        transform: translate(380px,10px);
+        zoom: 60%;
+        border-radius: 50px;
+        z-index: -1;
+    }
+
+    #present {
+        display: flex;
+        position: relative;
+        height: 240px;
+    }
+    
+    #second {
+        position: absolute;
+        width: 75%;
+        height: 180px;
+        background-color: #0000ff;
+        border-radius: 50px;
+        text-size-adjust: 80%;
+        color: #f0f0f0;
+        margin-top: 100px;
+        transform: translate(10px,10px);
+        left: 70px;
+    }
+
+    #car-image {
+        position: relative;
+        background-image: url(../images/foam-picture-2.jpg);
+        background-repeat: no-repeat;
+        background-position: 30% 65%;
+        Height: 400px;
+        transform: translate(10px,0px);
+        zoom: 60%;
+        border-radius: 50px;
+        z-index: -1;
+    }
+
+    #future {
+        display: flex;
+        position: relative;
+        height: 300px;
+    }
+
+    #thrid {
+        position: absolute;
+        width: 75%;
+        height: 180px;
+        background-color: #0000ff;
+        border-radius: 50px;
+        text-size-adjust: 80%;
+        color: #f0f0f0;
+        margin-top: 100px;
+        transform: translate(10px,10px);
+    }
+
+    #twocars-image {
+        position: relative;
+        background-image: url(../images/2-cars.jpg);
+        background-repeat: no-repeat;
+        background-position: 55% 50%;
+        Height: 400px;
+        transform: translate(380px,10px);
+        zoom: 60%;
+        border-radius: 50px;
+        z-index: -1;
     }
 }
 
@@ -295,6 +416,8 @@ div #social-icons {
         margin: 20px; /* Add top margin for foam picture */
     }
 }
+
+/* Responsive design for lablets and larger screen */
 
 /* Responsive design for laptops and larger screens */
 @media screen and (min-width: 992px) {
@@ -358,6 +481,16 @@ div #social-icons {
 
     .three-four {
         order: 3; /* Order for the third item */
+    }
+    
+    #ste-john {
+    background-image: url(../images/ste-and-john.jpg);
+    background-position: 50% 10%;
+    left: 90%;
+    width: 35%;
+    height: 400px;
+    z-index: -1;
+    border-radius: 50px;
     }
 }
 
