@@ -311,6 +311,7 @@ div #social-icons {
         zoom: 60%;
         border-radius: 50px;
         z-index: -1;
+        box-shadow: 0 2px 4px #000080;
     }
 
     #present {
@@ -342,6 +343,7 @@ div #social-icons {
         zoom: 60%;
         border-radius: 50px;
         z-index: -1;
+        box-shadow: 0 2px 4px #000080;
     }
 
     #future {
@@ -372,6 +374,7 @@ div #social-icons {
         zoom: 60%;
         border-radius: 50px;
         z-index: -1;
+        box-shadow: 0 2px 4px #000080;
     }
 }
 
@@ -444,10 +447,11 @@ div #social-icons {
         background-position: 50% 10%;
         background-repeat: no-repeat;
         Height: 400px;
-        transform: translate(855px,10px);
+        transform: translate(820px,10px);
         zoom: 60%;
         z-index: -1;
         border-radius: 50px;
+        box-shadow: 0 2px 4px #000080;
     }
 
     #present {
@@ -478,6 +482,7 @@ div #social-icons {
         zoom: 60%;
         border-radius: 50px;
         z-index: -1;
+        box-shadow: 0 2px 4px #000080;
     }
 
     #future {
@@ -508,6 +513,7 @@ div #social-icons {
         zoom: 60%;
         border-radius: 50px;
         z-index: -1;
+        box-shadow: 0 2px 4px #000080;
     }
 }
 
@@ -603,10 +609,11 @@ div #social-icons {
         background-position: 50% 10%;
         background-repeat: no-repeat;
         Height: 600px;
-        transform: translate(2100px,10px);
+        transform: translate(1660px,10px);
         zoom: 60%;
         z-index: -1;
         border-radius: 50px;
+        box-shadow: 0 2px 4px #000080;
     }
 
     #present {
@@ -637,6 +644,7 @@ div #social-icons {
         zoom: 60%;
         border-radius: 50px;
         z-index: -1;
+        box-shadow: 0 2px 4px #000080;
     }
 
     #future {
@@ -663,10 +671,11 @@ div #social-icons {
         background-repeat: no-repeat;
         background-position: 55% 50%;
         Height: 600px;
-        transform: translate(1850px,10px);
+        transform: translate(1660px,10px);
         zoom: 60%;
         border-radius: 50px;
         z-index: -1;
+        box-shadow: 0 2px 4px #000080;
     }
 }
 
