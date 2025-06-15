@@ -316,13 +316,13 @@ div #social-icons {
     #present {
         display: flex;
         position: relative;
-        height: 240px;
+        height: 210px;
     }
     
     #second {
         position: absolute;
         width: 75%;
-        height: 180px;
+        height: 150px;
         background-color: #0000ff;
         border-radius: 50px;
         text-size-adjust: 80%;
@@ -353,7 +353,7 @@ div #social-icons {
     #thrid {
         position: absolute;
         width: 75%;
-        height: 180px;
+        height: 160px;
         background-color: #0000ff;
         border-radius: 50px;
         text-size-adjust: 80%;
@@ -415,9 +415,101 @@ div #social-icons {
         box-shadow: 0 2px 4px #000080; /* Add shadow for foam picture */
         margin: 20px; /* Add top margin for foam picture */
     }
-}
 
-/* Responsive design for lablets and larger screen */
+     #beginning {
+        display: flex;
+        position: relative;
+        height: 160px;
+    }
+
+    .container {
+        width: 60%;
+        zoom: 60%;
+    }
+
+    #first {
+        position: absolute;
+        width: 75%;
+        height: 100px;
+        background-color: #0000ff;
+        border-radius: 50px;
+        color: #f0f0f0;
+        margin-top: 100px;
+        transform: translate(10px,10px);
+    }
+
+    #ste-john {
+        position: relative;
+        background-image: url(../images/ste-and-john.jpg);
+        background-position: 50% 10%;
+        background-repeat: no-repeat;
+        Height: 400px;
+        transform: translate(855px,10px);
+        zoom: 60%;
+        z-index: -1;
+        border-radius: 50px;
+    }
+
+    #present {
+        display: flex;
+        position: relative;
+        height: 160px;
+    }
+    
+    #second {
+        position: absolute;
+        width: 75%;
+        height: 100px;
+        background-color: #0000ff;
+        border-radius: 50px;
+        color: #f0f0f0;
+        margin-top: 100px;
+        transform: translate(120px,10px);
+        left: 70px;
+    }
+
+    #car-image {
+        position: relative;
+        background-image: url(../images/foam-picture-2.jpg);
+        background-repeat: no-repeat;
+        background-position: 30% 65%;
+        Height: 400px;
+        transform: translate(10px,0px);
+        zoom: 60%;
+        border-radius: 50px;
+        z-index: -1;
+    }
+
+    #future {
+        display: flex;
+        position: relative;
+        height: 250px;
+    }
+
+    #thrid {
+        position: absolute;
+        width: 75%;
+        height: 100px;
+        background-color: #0000ff;
+        border-radius: 50px;
+        text-size-adjust: 80%;
+        color: #f0f0f0;
+        margin-top: 100px;
+        transform: translate(10px,10px);
+    }
+
+    #twocars-image {
+        position: relative;
+        background-image: url(../images/2-cars.jpg);
+        background-repeat: no-repeat;
+        background-position: 55% 50%;
+        Height: 400px;
+        transform: translate(820px,10px);
+        zoom: 60%;
+        border-radius: 50px;
+        z-index: -1;
+    }
+}
 
 /* Responsive design for laptops and larger screens */
 @media screen and (min-width: 992px) {
@@ -483,14 +575,98 @@ div #social-icons {
         order: 3; /* Order for the third item */
     }
     
+     #beginning {
+        display: flex;
+        position: relative;
+        height: 250px;
+    }
+
+    .container {
+        width: 60%;
+        zoom: 60%;
+    }
+
+    #first {
+        position: absolute;
+        width: 75%;
+        height: 100px;
+        background-color: #0000ff;
+        border-radius: 50px;
+        color: #f0f0f0;
+        margin-top: 180px;
+        transform: translate(10px,10px);
+    }
+
     #ste-john {
-    background-image: url(../images/ste-and-john.jpg);
-    background-position: 50% 10%;
-    left: 90%;
-    width: 35%;
-    height: 400px;
-    z-index: -1;
-    border-radius: 50px;
+        position: relative;
+        background-image: url(../images/ste-and-john.jpg);
+        background-position: 50% 10%;
+        background-repeat: no-repeat;
+        Height: 600px;
+        transform: translate(2100px,10px);
+        zoom: 60%;
+        z-index: -1;
+        border-radius: 50px;
+    }
+
+    #present {
+        display: flex;
+        position: relative;
+        height: 250px;
+    }
+    
+    #second {
+        position: absolute;
+        width: 75%;
+        height: 100px;
+        background-color: #0000ff;
+        border-radius: 50px;
+        color: #f0f0f0;
+        margin-top: 180px;
+        transform: translate(120px,10px);
+        left: 70px;
+    }
+
+    #car-image {
+        position: relative;
+        background-image: url(../images/foam-picture-2.jpg);
+        background-repeat: no-repeat;
+        background-position: 30% 65%;
+        Height: 600px;
+        transform: translate(10px,0px);
+        zoom: 60%;
+        border-radius: 50px;
+        z-index: -1;
+    }
+
+    #future {
+        display: flex;
+        position: relative;
+        height: 340px;
+    }
+
+    #thrid {
+        position: absolute;
+        width: 75%;
+        height: 100px;
+        background-color: #0000ff;
+        border-radius: 50px;
+        text-size-adjust: 80%;
+        color: #f0f0f0;
+        margin-top: 180px;
+        transform: translate(10px,10px);
+    }
+
+    #twocars-image {
+        position: relative;
+        background-image: url(../images/2-cars.jpg);
+        background-repeat: no-repeat;
+        background-position: 55% 50%;
+        Height: 600px;
+        transform: translate(1850px,10px);
+        zoom: 60%;
+        border-radius: 50px;
+        z-index: -1;
     }
 }
 
