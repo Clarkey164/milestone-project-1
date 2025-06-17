@@ -20,10 +20,10 @@
         color: #3a3a3a;
     }
 
-    .center-text {
+    .center-text-us {
         /* Center text in the main content */
         text-align: center; /* Center text */
-        font-size: 1.2rem; /* Font size for centered text */
+        font-size: 1.2em;
         margin: 1rem; /* Add margin around centered text */
         margin-top: 4.5rem;
     }
@@ -288,6 +288,13 @@ div #social-icons {
         list-style: none; /* Remove default list styling */
     }
 
+    .center-text {
+        /* Center text in the main content */
+        text-align: center; /* Center text */
+        /*margin: 1rem; /* Add margin around centered text */
+        margin-top: 2.5rem;
+    }
+
     #beginning {
         display: flex;
         position: relative;
@@ -445,6 +452,13 @@ div #social-icons {
         background-position: center; /* Center the image */
         box-shadow: 0 2px 4px #000080; /* Add shadow for foam picture */
         margin: 20px; /* Add top margin for foam picture */
+    }
+
+    .center-text {
+        /* Center text in the main content */
+        text-align: center; /* Center text */
+        margin: 1rem; /* Add margin around centered text */
+        margin-top: 4.5rem;
     }
 
      #beginning {
