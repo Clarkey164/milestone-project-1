@@ -195,6 +195,46 @@ main {
     height: 100vh;
 }
 
+#quote-form {
+    color: #00ffff;
+    background-color: rgba(60, 60, 60, 0.6);
+    padding: 30px;
+}
+
+#quote-form>h2 {
+    margin-bottom: 25px;
+}
+
+.text-input {
+    background: transparent;
+    color: #ffffff;
+    width: 100%;
+    height: 25px;
+    margin: 5px 0 20px 0;
+    border: 1px solid #00ffff;
+    border-radius: 2px;
+    padding: 0 5px;
+}
+
+option {
+    color: #000000;
+}
+
+#quote-button {
+    justify-items: center;
+    margin-top: 10px;
+    border-radius: 5px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: #00ffff;
+    color: #ffffff;
+}
+
+#red {
+    color: red;
+    margin: 15px;
+}
+
 /* Footer styles */
 
 footer {
@@ -395,21 +435,23 @@ div #social-icons {
     }
 
     #contact-us-picture {
-    background-image: url(../images/contact-us-picture.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position-x: 55%;
-    width: 100%;
-    height: 100vh;
+        background-image: url(../images/contact-us-picture.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 55%;
+        width: 100%;
+        height: 100vh;
     }
 
     #quote-form {
         display: flex;
-        color: #f0f0f0;
+        color: #ffffff;
         justify-content: center;
         align-items: center;
         flex-direction: column;
         padding: 40px 40px;
+        max-width: 400px;
+        max-height: 100dvh;
     }
 }
 
@@ -556,6 +598,27 @@ div #social-icons {
         border-radius: 50px;
         z-index: -1;
         box-shadow: 0 2px 4px #000080;
+    }
+
+    #contact-us-picture {
+        background-image: url(../images/contact-us-picture.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position-x: 55%;
+        width: 100%;
+        height: 100vh;
+    }
+
+    #quote-form {
+        display: flex;
+        color: #ffffff;
+        justify-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        padding: 40px 40px;
+        max-width: 400px;
+        max-height: 100dvh;
     }
 }
 

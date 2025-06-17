@@ -39,41 +39,52 @@
         <section id="contact-us-picture" id="contact-us">
             <form id="quote-form" method="" action="">
                 <h2 class="capitalize-text"><i class="fa-solid fa-car-side"></i>  Get a Quote  <i class="fa-solid fa-car-side"></i></h2>
-                <label for="name">Full Name (Required)</label>
-                <input type="text" name="name" id="name" class="text-input" required>
-                <br>
-                <label for="location">Your Location (Required)</label>
-                <input type="text" name="location" id="location" class="text-input" required>
-                <br>
-                <label for="Vehicle">Vehicle Model (Required)</label>
-                <input type="text" name="Vehicle" id="Vehicle" class="text-input" required>
-                <br>
-                <label for="valet">Type of Valet</label>
-                <select name="valet" id="valet" class="text-input" required>
-                    <option value="Please Select A Valet Type" disabled selected>Please Select A Valet Type</option>
-                    <option value="Squeeze me in!">Squeeze me in!</option>
-                    <option value="Refresh me!">Refresh me!</option>
-                    <option value="Showroom Valet!">Showroom Valet!</option>
-                </select>
-                <br>
-                <label for="Email">Your Email (Required)</label>
-                <input type="email" name="email" id="email" class="text-input" required>
-                <br>
-                <label for="contact-number">Contact Number (Required)</label>
-                <input type="text" name="contact-number" id="contact-number" class="text-input" required>
-                <br>
-                <label for="how-did">How Did You hear About Us?</label>
-                <select name="how-did" id="how-did" class="text-input" required>
-                    <option value="Please select one" disabled selected>Please Select One</option>
-                    <option value="Google">Google</option>
-                    <option value="Facebook">Facebook</option>
-                    <option value="Twitter">Twitter</option>
-                    <option value="instagram">instagram</option>
-                </select>
-                <br>
-                <label for="date">Preferred Valet Date (Leave Blank if unsure)</label>
-                <input type="text" name="date" id="date" class="text-input">
+                <div class="row">
+                <div class="column">
+                    <div class="column-one">
+                        <label for="name">Full Name (Required)</label>
+                        <input type="text" name="name" id="name" class="text-input" required>
+                        <br>
+                        <label for="Vehicle">Vehicle Model (Required)</label>
+                        <input type="text" name="Vehicle" id="Vehicle" class="text-input" required>
+                        <br>
+                        <label for="Email">Your Email (Required)</label>
+                        <input type="email" name="email" id="email" class="text-input" required>
+                        <br>
+                        <label for="how-did">How Did You hear About Us?</label>
+                        <select name="how-did" id="how-did" class="text-input" required>
+                            <option value="Please select one" disabled selected>Please Select One</option>
+                            <option value="Google">Google</option>
+                            <option value="Facebook">Facebook</option>
+                            <option value="Twitter">Twitter</option>
+                            <option value="instagram">instagram</option>
+                        </select>
+                        <br>
+                    </div>
+                    <div class="column-two">
+                        <label for="location">Your Location (Required)</label>
+                        <input type="text" name="location" id="location" class="text-input" required>
+                        <br>
+                        <label for="valet">Type of Valet</label>
+                        <select name="valet" id="valet" class="text-input" required>
+                            <option value="Please Select A Valet Type" disabled selected>Please Select A Valet Type</option>
+                            <option value="Squeeze me in!">Squeeze me in!</option>
+                            <option value="Refresh me!">Refresh me!</option>
+                            <option value="Showroom Valet!">Showroom Valet!</option>
+                        </select>
+                        <br>
+                        <label for="contact-number">Contact Number (Required)</label>
+                        <input type="text" name="contact-number" id="contact-number" class="text-input" required>
+                        <br>
+                        <label for="date">Preferred Valet Date (Leave Blank if unsure)</label>
+                        <input type="text" name="date" id="date" class="text-input">
+                        <br>
+                        <button type="submit" id="quote-button">Get a Quote</button>
+                    </div>
                 <hr>
+                <p class="capitalize-text center-text" id="red"><strong>Please note all quotes are subject to change</strong></p>
+                </div>
+                </div>
             </form>
         </section>
     </main>
