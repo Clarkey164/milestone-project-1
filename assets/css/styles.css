@@ -28,6 +28,14 @@
         margin-top: 4.5rem;
     }
 
+    .center-text-serv {
+        /* Center text in the main content */
+        text-align: center; /* Center text */
+        font-size: 1.2em;
+        margin: 1rem; /* Add margin around centered text */
+        margin-top: 1rem;
+    }
+
     .capitalize-text {
         /* Capitalize text */
         text-transform: capitalize; /* Capitalize text */
@@ -233,6 +241,38 @@ option {
 #red {
     color: red;
     margin: 15px;
+}
+
+/*Services Page Styles*/
+
+#squeeze-me-in {
+    display: flex;
+}
+
+.description {
+    flex-direction: column;
+    justify-items: center;
+    padding: 20px 20px;
+    margin: 20px 10px;
+}
+
+.background-color {
+    list-style: none;
+    color: #f0f0f0;
+    background-color: #0000ff;
+    border-radius: 10px;
+}
+
+.blue {
+    color: #000080;
+}
+
+#refresh-me {
+    display: flex;
+}
+
+#showroom-clean {
+    display: flex;
 }
 
 /* Footer styles */
@@ -619,6 +659,38 @@ div #social-icons {
         padding: 40px 40px;
         max-width: 400px;
         max-height: 100dvh;
+    }
+
+    #squeeze-list {
+        background-image: url(../images/squeeze-me-in.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+        width: 400px;
+        height: 400px;
+        flex: 1 0 auto;
+        order: 0;
+    }
+
+    #refresh-list {
+        background-image: url(../images/refresh-me.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+        width: 400px;
+        height: 400px;
+        flex: 1 0 auto;
+        order: 1;
+    }
+
+    #showroom-list {
+        background-image: url(../images/showroom-clean.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 50px;
+        width: 400px;
+        height: 400px;
+        flex: 1 0 auto;
     }
 }
 
