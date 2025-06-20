@@ -25,15 +25,15 @@
         text-align: center; /* Center text */
         font-size: 1.2em;
         margin: 1rem; /* Add margin around centered text */
-        margin-top: 4.5rem;
+        margin-top: 8.5rem;
     }
 
-    .center-text-serv {
+    #center-text-us {
         /* Center text in the main content */
         text-align: center; /* Center text */
         font-size: 1.2em;
         margin: 1rem; /* Add margin around centered text */
-        margin-top: 1rem;
+        margin-top: 2.5rem;
     }
 
     .capitalize-text {
@@ -275,6 +275,8 @@ option {
     display: flex;
 }
 
+/* Testimonial Page Style */
+
 /* Footer styles */
 
 footer {
@@ -389,13 +391,14 @@ div #social-icons {
     #first {
         position: absolute;
         width: 75%;
-        height: 180px;
+        height: 250px;
         background-color: #0000ff;
         border-radius: 50px;
         text-size-adjust: 80%;
         color: #f0f0f0;
         margin-top: 100px;
         transform: translate(10px,10px);
+        padding: 20px;
     }
 
     #ste-john {
@@ -420,7 +423,7 @@ div #social-icons {
     #second {
         position: absolute;
         width: 75%;
-        height: 150px;
+        height: 220px;
         background-color: #0000ff;
         border-radius: 50px;
         text-size-adjust: 80%;
@@ -428,6 +431,7 @@ div #social-icons {
         margin-top: 100px;
         transform: translate(10px,10px);
         left: 70px;
+        padding: 20px;
     }
 
     #car-image {
@@ -446,19 +450,20 @@ div #social-icons {
     #future {
         display: flex;
         position: relative;
-        height: 300px;
+        height: 350px;
     }
 
     #thrid {
         position: absolute;
         width: 75%;
-        height: 160px;
+        height: 220px;
         background-color: #0000ff;
         border-radius: 50px;
         text-size-adjust: 80%;
         color: #f0f0f0;
         margin-top: 100px;
         transform: translate(10px,10px);
+        padding: 20px;
     }
 
     #twocars-image {
@@ -491,7 +496,48 @@ div #social-icons {
         flex-direction: column;
         padding: 40px 40px;
         max-width: 400px;
-        max-height: 100dvh;
+        max-height: 100svh;
+    }
+
+    /* Testimonial Page Styles */
+
+    .container-one {
+        padding: 20px;
+        width: 75%;
+        height: 420px;
+    }
+
+    #tesla-testimonial {
+        background-image: url(../images/tesla-testimonial.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        border-radius: 50px;
+        width: 100%;
+        height: 400px;
+        box-shadow: 0 2px 4px #0000ff;
+    }
+
+    #volvo-testimonial {
+        background-image: url(../images/volvo-testimonial.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 60%;
+        border-radius: 50px;
+        width: 100%;
+        height: 400px;
+        box-shadow: 0 2px 4px #0000ff;
+    }
+
+    .testimonial-text {
+        color: #f0f0f0;
+        background-color: #000080;
+        border-radius: 50px;
+        padding: 20px;
+        margin-top: 10px;
+        width: 90%;
+        justify-self: center;
+        margin-bottom: 20px;
     }
 }
 
@@ -546,7 +592,7 @@ div #social-icons {
      #beginning {
         display: flex;
         position: relative;
-        height: 160px;
+        height: 130px;
     }
 
     .container {
@@ -557,7 +603,7 @@ div #social-icons {
     #first {
         position: absolute;
         width: 75%;
-        height: 100px;
+        height: 130px;
         background-color: #0000ff;
         border-radius: 50px;
         color: #f0f0f0;
@@ -581,13 +627,13 @@ div #social-icons {
     #present {
         display: flex;
         position: relative;
-        height: 160px;
+        height: 120px;
     }
     
     #second {
         position: absolute;
         width: 75%;
-        height: 100px;
+        height: 120px;
         background-color: #0000ff;
         border-radius: 50px;
         color: #f0f0f0;
@@ -618,7 +664,7 @@ div #social-icons {
     #thrid {
         position: absolute;
         width: 75%;
-        height: 100px;
+        height: 130px;
         background-color: #0000ff;
         border-radius: 50px;
         text-size-adjust: 80%;
@@ -692,6 +738,10 @@ div #social-icons {
         height: 400px;
         flex: 1 0 auto;
     }
+
+    #tesla-testimonial {
+        background-position-y: 60%;
+    }
 }
 
 /* Responsive design for laptops and larger screens */
@@ -761,7 +811,7 @@ div #social-icons {
      #beginning {
         display: flex;
         position: relative;
-        height: 250px;
+        height: 200px;
     }
 
     .container {
@@ -772,7 +822,7 @@ div #social-icons {
     #first {
         position: absolute;
         width: 75%;
-        height: 100px;
+        height: 120px;
         background-color: #0000ff;
         border-radius: 50px;
         color: #f0f0f0;
@@ -796,13 +846,13 @@ div #social-icons {
     #present {
         display: flex;
         position: relative;
-        height: 250px;
+        height: 200px;
     }
     
     #second {
         position: absolute;
         width: 75%;
-        height: 100px;
+        height: 120px;
         background-color: #0000ff;
         border-radius: 50px;
         color: #f0f0f0;
@@ -833,7 +883,7 @@ div #social-icons {
     #thrid {
         position: absolute;
         width: 75%;
-        height: 100px;
+        height: 110px;
         background-color: #0000ff;
         border-radius: 50px;
         text-size-adjust: 80%;
@@ -853,6 +903,18 @@ div #social-icons {
         border-radius: 50px;
         z-index: -1;
         box-shadow: 0 2px 4px #000080;
+    }
+
+    .container-one {
+        height: 800px;
+    }
+
+    #tesla-testimonial {
+        height: 750px;
+    }
+
+    #volvo-testimonial {
+        height: 750px;
     }
 }
 
