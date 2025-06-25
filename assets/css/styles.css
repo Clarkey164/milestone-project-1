@@ -326,6 +326,10 @@ div #social-icons {
         margin: 0 auto; /* Center the button horizontally */
     }
 
+    #valet-button>a {
+        text-decoration: none;
+    }
+
     #valet-button:hover {
         /* Style for valet button on hover */
         background-color: #0000ff; /* Lighter blue on hover */
