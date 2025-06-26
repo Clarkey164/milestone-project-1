@@ -145,8 +145,8 @@ main {
 .welcome-text {
     /* Style for welcome text */
     font-family: 'Raleway', sans-serif;
-    font-size: 1.5rem; /* Font size for welcome text */
-    color: #3a3a3a; /* Use a white for welcome text */
+    font-size: 2rem; /* Font size for welcome text */
+    color: #f0f0f0; /* Use a white for welcome text */
     margin: 1rem; /* Add margin around welcome text */
     text-align: center; /* Center the welcome text */
     text-transform: uppercase; /* Transform text to uppercase */
@@ -161,8 +161,22 @@ main {
     align-items: center; /* Center items horizontally */
     justify-content: center; /* Center items vertically */
     padding: 2rem; /* Add padding to the welcome section */
-    background-color: #f0f0f0; /* Light background color for contrast */
+    background-color: rgba(0, 0, 240, 0.7); /* Light background color for contrast */
     margin-top: 20px; /* Add top margin for spacing */
+    z-index: 1; /* Ensure welcome section is above other content */
+    border-radius: 50px; /* Rounded corners for welcome section */
+}
+
+#welcome-section>a {
+    text-decoration: none; /* Remove underline from links */
+    color: #f0f0f0; /* Use a white color for links */
+    font-weight: bold; /* Make links bold */
+}
+
+#welcome-section>a:hover {
+    /* Style for links on hover */
+    color: black; /* Text turns black on hover */
+    border-bottom: 2px solid #000080; /* Underline effect on hover */
 }
 
 /* Main Image Styles */
@@ -175,6 +189,7 @@ main {
     background-position: center; /* Center the image */
     box-shadow: 0 2px 4px #000080; /* Add shadow for header image */
     margin-top: 0; /* Remove top margin for header image */
+    z-index: -1; /* Ensure header image is behind other content */
 }
 
 .valet {
@@ -320,10 +335,6 @@ div #social-icons {
         text-transform: capitalize; /* Capitalize button text */
         display: block; /* Make button a block element */
         margin: 0 auto; /* Center the button horizontally */
-        text-decoration: none;
-    }
-
-    a>#valet-button {
         text-decoration: none;
     }
 
