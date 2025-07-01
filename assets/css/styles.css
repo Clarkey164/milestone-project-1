@@ -175,7 +175,7 @@ main {
 
 #welcome-section>a:hover {
     /* Style for links on hover */
-    color: black; /* Text turns black on hover */
+    color: black; /* Text turns to black when user hovers */
     border-bottom: 2px solid #000080; /* Underline effect on hover */
 }
 
@@ -720,6 +720,8 @@ div #social-icons {
         padding: 40px 40px;
         max-width: 400px;
         height: 800px;
+        position: relative;
+        left: 350px; /* Adjust position for better alignment */
     }
 
     #squeeze-list {
@@ -936,6 +938,7 @@ div #social-icons {
         align-items: center;
         max-width: 400px;
         height: 900px;
+        left: 1000px; /* Adjust position for better alignment */
     }
 
     .container-one {
