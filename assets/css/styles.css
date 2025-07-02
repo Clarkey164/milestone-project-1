@@ -246,7 +246,9 @@ option {
     padding: 15px 32px;
     font-size: 100%;
     background-color: #00ffff;
-    color: #ffffff;
+    color: #000000;
+    font-weight: bold;
+    font-size: xx-large;
 }
 
 #red {
