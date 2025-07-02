@@ -82,6 +82,10 @@ header a {
     margin-right: 1rem; /* Add space between links */
 }
 
+header>label {
+    font-size: 0; /* Hide text in label */
+}
+
 #logo {
     /* Center the logo horizontally */
     font-family: 'Raleway', sans-serif;
@@ -200,6 +204,10 @@ main {
     justify-content: center; /* Center items vertically */
     padding: 2rem; /* Add padding to the main content section */
     background-color: #f0f0f0; /* Light background color for contrast */
+}
+
+div>label, div>a {
+    font-size: 0; /* Hide text in labels and links */
 }
 
 /* About Us Page Styles */
