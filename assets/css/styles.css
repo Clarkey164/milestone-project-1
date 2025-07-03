@@ -202,10 +202,6 @@ main {
     background-color: #f0f0f0; /* Light background color for contrast */
 }
 
-.valet>label {
-    font-size: 0; /* Hide text in labels and links */
-}
-
 .button {
     /* Style for buttons */
     background-color: #000080; /* Dark blue background */
