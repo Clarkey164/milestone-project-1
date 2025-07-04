@@ -58,6 +58,21 @@
     width: 100%; /* Full width for background color section */
     height: 200px; /* Full height for background color section */
 }
+/* 404 Error Page Styles */
+
+#error-image {
+    /* Style for the 404 image */
+    width: 400px; /* Fixed width for 404 image */
+    height: 400px; /* Fixed height for 404 image */
+    background: url('../images/error-image.jpg'); /* Background image for 404 */
+    background-size: cover; /* Cover the entire area */
+    background-position: center center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    box-shadow: 0 2px 4px #000080; /* Add shadow for 404 image */
+    z-index: 1; /* Ensure 404 image is behind other content */
+    margin-top: 2rem; /* Add top margin for spacing */
+    border-radius: 50px; /* Rounded corners for 404 image */
+}
 
 /* Header styles */
 
@@ -577,6 +592,13 @@ div #social-icons {
         justify-self: center;
         margin-bottom: 20px;
     }
+
+    #error-image {
+        width: 300px; /* Fixed width for 404 image */
+        height: 300px; /* Fixed height for 404 image */
+        position: relative; /* Position relative for 404 image */
+        left: 25px;
+    }
 }
 
 /* Responsive design for tablets and larger screens */
@@ -782,6 +804,13 @@ div #social-icons {
     #tesla-testimonial {
         background-position-y: 60%;
     }
+
+    #error-image {
+        width: 400px; /* Fixed width for 404 image */
+        height: 400px; /* Fixed height for 404 image */
+        position: relative; /* Position relative for 404 image */
+        left: 200px; /* Adjust position for better alignment */
+    }
 }
 
 /* Responsive design for laptops and larger screens */
@@ -974,6 +1003,13 @@ div #social-icons {
 
     #volvo-testimonial {
         height: 750px;
+    }
+
+    #error-image {
+        width: 400px; /* Fixed width for 404 image */
+        height: 400px; /* Fixed height for 404 image */
+        position: relative; /* Position relative for 404 image */
+        left: 550px; /* Adjust position for better alignment */
     }
 }
 
