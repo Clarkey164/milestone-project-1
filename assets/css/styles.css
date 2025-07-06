@@ -1017,18 +1017,3 @@ div #social-icons {
         left: 550px; /* Adjust position for better alignment */
     }
 }
-
-/* Responsive design for desktops and larger screens */
-@media screen and (min-width: 1280px) {   
-
-    #quote-form {
-        left: 1400px; /* Adjust position for better alignment */
-    }
-
-    #error-image {
-        width: 400px; /* Fixed width for 404 image */
-        height: 400px; /* Fixed height for 404 image */
-        position: relative; /* Position relative for 404 image */
-        left: 750px; /* Adjust position for better alignment */
-    }
-}
